@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: grid;
+  place-content: center;
+  background-color: #e2f1ff;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper {
+  color: black;
+  display: block;
+  border: 1px solid none;
+  border-radius: 2.2rem;
+  padding-right: 15rem;
+  box-shadow: 10px 10px 40px 0px #A7C3DD;
+
+}
+.list1 {
+  display: flex;
+  color: #697e90;
+  font-size: 1.5rem;
+  margin: 3.4rem;
+  width: 100%;
+  gap: 8rem;
+}
+.list2 {
+  display: flex;
+  margin: 3.4rem;
+  width: 100%;
+  gap: 8rem;
+}
+.list3 {
+  display: flex;
+  margin: 3.4rem;
+  width: 100%;
+  gap: 8rem;
+}
+.list4 {
+  display: flex;
+  margin: 3.4rem;
+  width: 100%;
+  gap: 8rem;
+}
+h3{
+  text-transform: uppercase;
+  gap: 8rem;
+  width: 100%;
+}
+h3.rank {
+  flex-basis: 18%;
+}
+h3.game {
+  flex-basis: 38%;
+}
+h3.country {
+  flex-basis: 42%;
+}
+p {
+  flex-basis: 18%;
+  color: #2c4257;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.country-names {
+  flex-basis: 42%;
+  color: black;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.game-names {
+  flex-basis: 38%;
+  font-weight: normal;
+  font-size: 3rem;
+}
